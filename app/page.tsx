@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { MapPin } from "lucide-react";
+
 export default function Home() {
   return (
     <>
@@ -49,8 +49,7 @@ export default function Home() {
     </div >
      <div className="pt-5  bg-white text-gray-500 flex  justify-between pl-50">
       <div className="pt-25 w-1/2">
-          <div className="flex items-center gap-2 text-black">
-      <MapPin size={22} />
+          
       <span className="text-black font-bold">Indore,IN  </span><a href="" className="underline ">Change City</a>
        
     </div>
